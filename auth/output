@@ -1,0 +1,4 @@
+nohup: ignoring input
+before / Route
+Connected
+(node:14213) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
