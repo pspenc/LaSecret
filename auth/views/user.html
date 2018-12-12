@@ -2,7 +2,7 @@
 <html ng-app="myApp">
     
 <head>
-    <title>User Login and Sessions</title>
+    <title>Not the Black Market</title>
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
    
@@ -14,7 +14,7 @@
         <form method="POST" action="/user/update">
             <label>Codename:</label>
             <input type="text" id="username" name="username" ng-model="user.username" disabled><br>
-            <label>Method of the electronic mail:</label>
+            <label>Method of Contact:</label>
             <input type="email" id="email" name="email" ng-model="user.email"><br>          
             <label>Favorite Black Market Item:</label>
             <input type="text" id="color" name="color" ng-model="user.color"><br>   
@@ -22,7 +22,7 @@
         </form>
     </div>
     <form method="POST" action="/user/delete">
-        <input type="submit" id="delete" value="Delete Self">
+        <input type="submit" id="delete" value="Delete Soul">
     </form>
     <hr>
     <span id="userMsg">
@@ -30,7 +30,7 @@
     </span>
     <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
     <script src="/javascripts/my_app.js"></script>
-    <a id="homeLink" href="/">Home</a>
+    <br><a id="homeLink" href="/">Back</a>
 </body>
 
 </html>

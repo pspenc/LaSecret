@@ -1,12 +1,37 @@
 body {
   padding: 50px;
-  font: 25px "Georgia", Helvetica, Arial, sans-serif;
-  background-color: darkblue;
-  font-weight: bolder;
-  color: yellow;
-  text-align: center;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #A9A9A9;
+  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/813307080918896319/215F96092B31CE1CDA9FC7C5BFEA0E340D98599C/");
+  background-color: #cccccc;
 }
 
+
 a {
-  color: #00B7FF;
+  color:#DCDCDC;
+  font: 30px "Verdana";
+}
+
+label {
+    font: 30px "Georgia";
+}
+
+.form-header { 
+    color: 	#A9A9A9;
+    font: 40px "Georgia", bold;
+}
+
+indexMsg {
+  font: 20px "Georgia", bold;
+  color:red;
+}
+
+h2 {
+  font:40px "Georgia";
+  color:#808080;
+}
+
+p {
+  font: 30px "Georgia";
+  color: #778899;
 }
